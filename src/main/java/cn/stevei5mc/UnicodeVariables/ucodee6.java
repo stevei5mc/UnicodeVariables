@@ -1,4 +1,4 @@
-package cn.stevei5mc;
+package cn.stevei5mc.UnicodeVariables;
 
 import cn.nukkit.Player;
 import tip.utils.variables.BaseVariable;
