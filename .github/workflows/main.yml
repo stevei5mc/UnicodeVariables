@@ -27,3 +27,9 @@ jobs:
         cache: maven
     - name: 构建
       run: mvn -B package --file pom.xml
+    - name: 收集构建文件到actions
+      uses: actions/upload-artifact@v1
+      if: success()
+      with:
+        name: UnicodeVariables
+        path: target/*.jar
