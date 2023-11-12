@@ -1,5 +1,5 @@
 name: UnicodeVariables
 main: cn.stevei5mc.UnicodeVariables.main
-version: '1.0.0'
+version: '1.0.1-beta1'
 author: stevei5mc
 api: ["1.0.0"]
