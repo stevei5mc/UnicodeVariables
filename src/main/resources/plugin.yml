@@ -1,7 +1,7 @@
 name: UnicodeVariables
 main: cn.stevei5mc.UnicodeVariables.main
-version: '1.0.1-beta2'
+version: '1.0.1-beta3'
 author: stevei5mc
-api: ["1.0.0"]
+api: ["1.0.14"]
 loadbefore:
   - Tips
