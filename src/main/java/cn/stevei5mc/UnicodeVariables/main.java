@@ -33,7 +33,7 @@ public class main extends PluginBase {
     public void onEnable() {
         if (this.getServer().getPluginManager().getPlugin("Tips") != null) {
             this.LoadVariables();
-            this.getLogger().info("UnicodeVariables 加载成功");
+            this.getLogger().info("加载成功");
             this.getLogger().info("§a支持显示范围 §eglyph_E0 §a==>> §eglyph_F8");
             this.getLogger().warning("§c警告:");
             this.getLogger().warning("§c本插件为免费且开源的一款插件，如果你是付费获取到的那么你就被骗了");
@@ -46,7 +46,7 @@ public class main extends PluginBase {
     }
 
     public void onDisable() {
-        this.getLogger().info("UnicodeVariables 停止运行");
+        this.getLogger().info("停止运行");
         this.getLogger().info("§6感谢你的使用");
     }
 
